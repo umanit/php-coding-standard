@@ -1,0 +1,30 @@
+{
+  "name": "umanit/coding-standard",
+  "description": "UmanIT PHP Coding Standard",
+  "type": "phpcodesniffer-standard",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "UmanITCodingStandard\\": "UmanITCodingStandard/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Vivien DE BONA",
+      "email": "vdebona@umanit.fr"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^8.2",
+    "squizlabs/php_codesniffer": "^4.0",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.1",
+    "slevomat/coding-standard": "^8.24"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}
