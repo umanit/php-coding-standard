@@ -41,7 +41,7 @@
         <properties>
             <property name="methodGroups" type="array">
                 <element key="phpunit hooks" value="setUp, tearDown" />
-                <element key="phpunit data provider" value="*DataProvider" />
+                <element key="phpunit data provider" value="dataProvider, *DataProvider" />
             </property>
 
             <property name="groups" type="array">
