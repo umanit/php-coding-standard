@@ -2,7 +2,10 @@
 <ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="UmanIT Coding Standard"
          xsi:noNamespaceSchemaLocation="../vendor/squizlabs/php_codesniffer/phpcs.xsd">
     <!-- Default PSR12 compliance -->
-    <rule ref="PSR12" />
+    <rule ref="PSR12">
+        <!-- Allow empty line in function declaration, useful when using constructor property promotion and attributes -->
+        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.EmptyLine" />
+    </rule>
 
     <!-- Prohibits the use of certain PHP functions -->
     <rule ref="Generic.PHP.ForbiddenFunctions">

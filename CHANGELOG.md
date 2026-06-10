@@ -7,11 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.2] - 2025-11-12
-
 ### Added
 
 - Add `dataProvider*` to the `phpunit data provider` methods group
+
+### Changed
+
+- Allow empty line in function declaration, useful when using constructor property promotion and attributes
 
 ## [1.0.1] - 2025-09-30
 
